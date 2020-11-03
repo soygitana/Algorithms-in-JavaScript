@@ -15,7 +15,7 @@ const reverse1 = str => {
 
 // SOLUTION 2
 const reverse2 = str =>
-str
+    str
         .split("")
         .reverse()
         .join("");
@@ -29,7 +29,7 @@ const reverse3 = str => {
 
 // SOLUTION 4
 const reverse4 = str =>
-str.split("").reduce((result, character) => character + result);
+    str.split("").reduce((result, character) => character + result);
 
 
 console.log(reverse1("Paula!"))
