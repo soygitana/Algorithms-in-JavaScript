@@ -1,0 +1,24 @@
+ALGORITHMS
+
+1. String Reversal
+2. Palindrome
+3. Integer Reversal
+4. Fizz Buzz
+5. Max Character
+6. Anagrams
+7. Vowels
+8. Array Chunking
+9. Reverse Array
+10. Reverse Words
+11. Capitalization
+12. Caesar Cipher
+13. Ransom Note
+14. Mean, Median, and Mode
+15. Two Sum
+16. Max Profit
+17. Sieve of Eratosthenes
+18. Fibonacci
+19. Memoized Fibonacci
+20. Staircase
+21. Pyramid
+22. Matrix Spiral
