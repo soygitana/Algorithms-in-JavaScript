@@ -23,3 +23,4 @@
 21. Staircase
 22. Pyramid
 23. Matrix Spiral
+24. Has an array two candidates? (Google interview)
