@@ -1,4 +1,4 @@
-## ALGORITHMS
+### ALGORITHMS
 
 <sup>1. String Reversal</sup></br>
 <sup>2. Palindrome</sup></br>
