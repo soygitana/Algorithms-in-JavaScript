@@ -1,6 +1,6 @@
 ## ALGORITHMS
 
-<sub>1. String Reversal
+<sup>1. String Reversal
 2. Palindrome
 3. Integer Reversal
 4. Fizz Buzz
@@ -23,4 +23,4 @@
 21. Staircase
 22. Pyramid
 23. Matrix Spiral
-24. Has an array two candidates? (Google interview)</sub>
+24. Has an array two candidates? (Google interview)</sup>
