@@ -5,20 +5,22 @@ ALGORITHMS
 3. Integer Reversal
 4. Fizz Buzz
 5. Max Character
-6. Anagrams
-7. Vowels
-8. Array Chunking
-9. Reverse Array
-10. Reverse Words
-11. Capitalization
-12. Caesar Cipher
-13. Ransom Note
-14. Mean, Median, and Mode
-15. Two Sum
-16. Max Profit
-17. Sieve of Eratosthenes
-18. Fibonacci
-19. Memoized Fibonacci
-20. Staircase
-21. Pyramid
-22. Matrix Spiral
+6. First Repeated Character
+7. Anagrams
+8. Vowels
+9. Array Chunking
+10. Reverse Array
+11. Reverse Words
+12. Capitalization
+13. Caesar Cipher
+14. Ransom Note
+15. Mean, Median, and Mode
+16. Two Sum
+17. Max Profit
+18. Sieve of Eratosthenes
+19. Fibonacci
+20. Memoized Fibonacci
+21. Staircase
+22. Pyramid
+23. Matrix Spiral
+24. Has an array two candidates? (Google interview)

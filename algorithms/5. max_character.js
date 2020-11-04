@@ -14,7 +14,7 @@
 const max = string => {
     const characters = {};
 
-    for (let character of string)
+    for (let character of string.toLowerCase())
         characters[character] = characters[character] + 1 || 1;
 
     let maxCount = 0;
@@ -60,17 +60,20 @@ console.log(max2("pauuulallll"))
 
 
 // NUMBER OF APPERANCE INTO OBJECT
-// const numberOfApparence = string => {
-//     let result = { };
+
+//  const numberOfApparence = (str) => {
+
+//     let characters = {}
+
+//     let arr = str.split(' ')                                       // if we want to take words instead of letters
     
-//     let arr = string.split(' ')
-      
-      
-//     for (let character of arr)
-//     result[character] = result[character] + 1 || 1
-         
-//       return result
+//     for ( let character of str.toLowerCase()) {                    // OF taking values or str/arr IN taking indexes
+//     characters[character] = characters[character] + 1 || 1
+//     }  
+       
+//     return characters
 //     }
     
-//     console.log(numberOfApparence("paula paula paula Joao"))
+    
+//     console.log(numberOfApparence("Green Caffee Nero")) 
     
