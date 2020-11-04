@@ -1,26 +1,26 @@
 ## ALGORITHMS
 
-<sup>1. String Reversal
-2. Palindrome
-3. Integer Reversal
-4. Fizz Buzz
-5. Max Character
-6. First Repeated Character
-7. Anagrams
-8. Vowels
-9. Array Chunking
-10. Reverse Array
-11. Reverse Words
-12. Capitalization
-13. Caesar Cipher
-14. Ransom Note
-15. Mean, Median, and Mode
-16. Two Sum
-17. Max Profit
-18. Sieve of Eratosthenes
-19. Fibonacci
-20. Memoized Fibonacci
-21. Staircase
-22. Pyramid
-23. Matrix Spiral
-24. Has an array two candidates? (Google interview)</sup>
+<sup>1. String Reversal</sup>
+<sup>2. Palindrome</sup>
+<sup>3. Integer Reversal</sup>
+<sup>4. Fizz Buzz</sup>
+<sup>5. Max Character</sup>
+<sup>6. First Repeated Character</sup>
+<sup>7. Anagrams</sup>
+<sup>8. Vowels</sup>
+<sup>9. Array Chunking</sup>
+<sup>10. Reverse Array</sup>
+<sup>11. Reverse Words</sup>
+<sup>12. Capitalization</sup>
+<sup>13. Caesar Cipher</sup>
+<sup>14. Ransom Note</sup>
+<sup>15. Mean, Median, and Mode</sup>
+<sup>16. Two Sum</sup>
+<sup>17. Max Profit</sup>
+<sup>18. Sieve of Eratosthenes</sup>
+<sup>19. Fibonacci</sup>
+<sup>20. Memoized Fibonacci</sup>
+<sup>21. Staircase</sup>
+<sup>22. Pyramid</sup>
+<sup>23. Matrix Spiral</sup>
+<sup>24. Has an array two candidates? (Google interview)</sup>
