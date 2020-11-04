@@ -1,6 +1,6 @@
 ## ALGORITHMS
 
-<sup>1. String Reversal</sup>
+<sup>1. String Reversal</sup></br>
 <sup>2. Palindrome</sup>
 <sup>3. Integer Reversal</sup>
 <sup>4. Fizz Buzz</sup>
