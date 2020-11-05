@@ -77,3 +77,10 @@ console.log(max2("pauuulallll"))
     
 //     console.log(numberOfApparence("Green Caffee Nero")) 
     
+
+// function count(str) {
+//     let arr = [...str]
+//     return arr.reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1, prev), {})
+//   }
+    
+    
