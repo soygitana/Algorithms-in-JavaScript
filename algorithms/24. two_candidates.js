@@ -7,7 +7,7 @@
 // 4. If (arr[leftmost] + arr[rightmost] == sum) then return result 
 // 5. Else (arr[leftmost] + arr[rightmost] < sum) then leftmost++
 // 6. Else rightmost–-
-// 7. No pair? return `there is not a pair` */
+// 7. No pair? return `there is no pair` */
 
 
 const twoCandidates = (arr, sum) => {
