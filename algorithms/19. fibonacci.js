@@ -22,3 +22,20 @@ console.log(fibonacci(1), 1);
 console.log(fibonacci(2), 1);
 console.log(fibonacci(3), 2);
 console.log(fibonacci(10), 55);
+
+
+const fibonacci2 = element => {
+    const series = [1, 1];
+    
+    for (let i = 2; i < element; i++) {
+    const a = series[i - 1];
+    const b = series[i - 2];
+    series.push(a + b);
+    }
+    
+    return series[element - 1];
+    };
+    
+    
+    
+    console.log(fibonacci2(10))
