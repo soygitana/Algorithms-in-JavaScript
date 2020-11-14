@@ -1,3 +1,8 @@
+// Linked Lists in JavaScript
+
+// Implementing a List Node
+// As stated earlier, a list node contains two items: the data and the pointer to the next node.
+
 class Node {
   constructor(data, next = null) {
     this.data = data;
@@ -5,10 +10,14 @@ class Node {
   }
 }
 
+// Implementing a Linked List
+// Implementation of a linked list class with a constructor. If the head node is not passed, the head is initialised to null.
+
 class LinkedList {
   constructor() {
     this.head = null;
   }
+
   insertFirst(data) {
     const node = new Node(data, this.head);
     this.head = node;
