@@ -1,5 +1,7 @@
 ALGORITHMS
 
+*ARRAYS* 
+
 1. String Reversal
 2. Palindrome
 3. Integer Reversal
@@ -28,3 +30,8 @@ ALGORITHMS
 26. Binary Search
 27. Bubble Sort
 28. Sort by height
+
+*LINKED LISTS*
+
+1. Midpoint
+
