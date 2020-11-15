@@ -24,3 +24,7 @@ ALGORITHMS
 22. Pyramid
 23. Matrix Spiral
 24. Has an array two candidates? (Google interview)
+25. Justify
+26. Binary Search
+27. Bubble Sort
+28. Sort by height
