@@ -1,6 +1,8 @@
 ### ALGORITHMS
 ________________________________________________________________________________________________
-
+ 
+ *ARRAYS*
+ 
 <sup>1. String Reversal</sup></br>
 <sup>2. Palindrome</sup></br>
 <sup>3. Integer Reversal</sup></br>
@@ -25,3 +27,21 @@ ________________________________________________________________________________
 <sup>22. Pyramid</sup></br>
 <sup>23. Matrix Spiral</sup></br>
 <sup>24. Has an array two candidates? (Google interview)</sup>
+<sup>25. Justify</sup>
+<sup>26. Binary Search</sup>
+<sup>27. Bubble Sort</sup>
+<sup>28. Sort by height</sup>
+
+
+*LINKED LISTS*
+
+<sup>1. Midpoint</sup>
+<sup>2. Circular</sup>
+<sup>3. From tail</sup>
+<sup>4. Reverse List</sup>
+
+
+*HASH TABLES*
+
+<sup>1. First non-repeated character</sup>
+<sup>2. First repeated character</sup>
