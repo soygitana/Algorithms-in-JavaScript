@@ -31,7 +31,16 @@ ALGORITHMS
 27. Bubble Sort
 28. Sort by height
 
+
 *LINKED LISTS*
 
 1. Midpoint
+2. Circular
+3. From tail
+4. Reverse List
 
+
+*HASH TABLES*
+
+1. First non-repeated character
+2. First repeated character

@@ -15,7 +15,3 @@ let copiedArr3 = arr.slice();
 
 let copiedArr4 = arr // in this case methodes performed on copiedArr4 will affect old arr 
 
-
-
-
-console.log(arr)
