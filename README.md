@@ -1,7 +1,7 @@
 ### ALGORITHMS
 ________________________________________________________________________________________________
  
- *ARRAYS*
+ <sup>*ARRAYS*</sup>
  
 <sup>1. String Reversal</sup></br>
 <sup>2. Palindrome</sup></br>
@@ -26,22 +26,22 @@ ________________________________________________________________________________
 <sup>21. Staircase</sup></br>
 <sup>22. Pyramid</sup></br>
 <sup>23. Matrix Spiral</sup></br>
-<sup>24. Has an array two candidates? (Google interview)</sup>
-<sup>25. Justify</sup>
-<sup>26. Binary Search</sup>
-<sup>27. Bubble Sort</sup>
-<sup>28. Sort by height</sup>
+<sup>24. Has an array two candidates? (Google interview)</sup></br>
+<sup>25. Justify</sup></br>
+<sup>26. Binary Search</sup></br>
+<sup>27. Bubble Sort</sup></br>
+<sup>28. Sort by height</sup></br>
 
 
-*LINKED LISTS*
+<sup>*LINKED LISTS*</sup>
 
-<sup>1. Midpoint</sup>
-<sup>2. Circular</sup>
-<sup>3. From tail</sup>
-<sup>4. Reverse List</sup>
+<sup>1. Midpoint</sup></br>
+<sup>2. Circular</sup></br>
+<sup>3. From tail</sup></br>
+<sup>4. Reverse List</sup></br>
 
 
-*HASH TABLES*
+<sup>*HASH TABLES*</sup>
 
-<sup>1. First non-repeated character</sup>
-<sup>2. First repeated character</sup>
+<sup>1. First non-repeated character</sup></br>
+<sup>2. First repeated character</sup></br>
