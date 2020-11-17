@@ -1,6 +1,5 @@
 // Hash Table implementation from scratch
 
-// To implement a hash table using JavaScript, we will do three things: 
 // create a hash table class
 // add a hash function
 // implement a method for adding key/value pairs to our table.
@@ -18,7 +17,7 @@ class HashTable {
     }
 
     set(key, value) {
-        this.size++
+
         let index = this.hash(key);
 
         if (!this.buckets[index]) {
@@ -26,7 +25,7 @@ class HashTable {
         }
 
         this.buckets[index].push([key, value])
-
+        this.size++
         return index
 
     }
@@ -44,6 +43,16 @@ class HashTable {
         }
 
     }
+
+    remove(key) {
+        let index = this.hash(key);
+
+        if (this.buckets[index]) {
+            delete this.buckets[index]
+            this.size--
+        }
+        return index
+    }
 }
 
 
@@ -53,4 +62,8 @@ ht.set("Canada", "300");
 ht.set("Germany", "100");
 ht.set("Italy", "50");
 
-console.log(ht.get("Italy"));
+ht.remove("Italy")
+ht.remove("Germany")
+
+ht.set("Poland", "80");
+console.log(ht)
