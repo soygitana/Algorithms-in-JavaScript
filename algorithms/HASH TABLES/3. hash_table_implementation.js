@@ -55,8 +55,7 @@ class HashTable {
         let index = this.hash(key);
         let bucket = this.buckets[index]
 
-        if (!bucket) return null
-
+        if (bucket != null) {
         for (let entry of bucket) {
             if (entry[0] === key) {
                 console.log(bucket)
@@ -64,7 +63,9 @@ class HashTable {
                 this.size--
                 return;
             }
+        }    
         }
+      return null
     }
 }
 
