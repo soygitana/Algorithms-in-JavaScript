@@ -22,13 +22,13 @@ class HashTable {
         return finalHash;
     }
 
-    
     buildChains() {
         for (var i = 0; i < this.size; i++) {
           this.buckets[i] = new Array();
         }
       }
     
+
 
     set(key, value) {
 
@@ -49,15 +49,13 @@ class HashTable {
         let index = this.hash(key);
         let bucket = this.buckets[index]
 
-        if (bucket != null) {
+        if (!bucket) return null
 
         for (let entry of bucket) {
             if (entry[0] === key) {
                 return entry
             }
         }
-    }
-        return null
 
     }
 
@@ -66,17 +64,16 @@ class HashTable {
         let index = this.hash(key);
         let bucket = this.buckets[index]
 
-        if (bucket != null) {
-            for (let entry of bucket) {
-                if (entry[0] === key) {
-                    console.log(bucket)
-                    bucket.splice(bucket[0])
-                    this.size--
-                    return;
-                }
+        if (!bucket) return null
+
+        for (let entry of bucket) {
+            if (entry[0] === key) {
+                console.log(bucket)
+                bucket.splice(bucket[0])
+                this.size--
+                return;
             }
         }
-        return null
     }
 }
 
@@ -91,6 +88,3 @@ ht.set("Poland", "30");
 ht.remove("Poland")
 
 console.log(ht)
-
-// { "buckets": { "515": [ [ "Italy", "50" ] ], "568": [ [ "Canada", "300" ] ],
-// "606": [], "723": [ [ "Germany", "100" ] ] }, "size": 3 }
