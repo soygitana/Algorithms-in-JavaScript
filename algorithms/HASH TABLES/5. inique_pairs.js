@@ -41,3 +41,40 @@ const uniquePairs = arr => {
 
 
 console.log(uniquePairs(arr))
+
+
+
+
+
+const removeDuplicates2 = (arr, obj) => {
+
+    for(let i =0; i < arr.length; i++) {
+
+      if(arr[i].el1 == obj.el1 && arr[i].el2 == obj.el2) return
+      else if(arr[i].el1 == obj.el2 && arr[i].el2 == obj.el1) return
+      
+    }
+    arr.push(obj);
+}
+
+const uniquePairs = arr => {
+
+let target = 4
+let storage = {}
+let result = []
+
+for (let i in arr) {
+    for (let j in arr) {
+         if(arr[i] - arr[j] == target && i !=j) {
+             let storage = {}
+            storage.el1 = Number(i);
+            storage.el2 = Number(j);
+           removeDuplicates(result, storage)
+        }
+    }
+}
+return result
+}
+
+
+console.log(uniquePairs2(arr))
