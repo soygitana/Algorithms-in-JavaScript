@@ -9,11 +9,16 @@
 class HashTable {
     constructor() {
         this.buckets = {};
-        this.length = 0;
         this.size = 0;
     }
+
     hash(key) {
-        return key.toString().length % this.size;
+        let finalHash = 0;
+        for (let i = 0; i < key.length; i++) {
+            const charCode = key.charCodeAt(i);
+            finalHash += charCode;
+        }
+        return finalHash;
     }
 
     set(key, value) {
@@ -33,25 +38,33 @@ class HashTable {
     get(key) {
 
         let index = this.hash(key);
+        let bucket = this.buckets[index]
 
-        if (!this.buckets[index]) return null
+        if (!bucket) return null
 
-        for (let bucket of this.buckets[index]) {
-            if (bucket[0] === key) {
-                return bucket[1]
+        for (let entry of bucket) {
+            if (entry[0] === key) {
+                return entry
             }
         }
 
     }
 
     remove(key) {
-        let index = this.hash(key);
 
-        if (this.buckets[index]) {
-            delete this.buckets[index]
-            this.size--
+        let index = this.hash(key);
+        let bucket = this.buckets[index]
+
+        if (!bucket) return null
+
+        for (let entry of bucket) {
+            if (entry[0] === key) {
+                console.log(bucket)
+                bucket.splice(bucket[0])
+                this.size--
+                return;
+            }
         }
-        return index
     }
 }
 
@@ -61,9 +74,11 @@ const ht = new HashTable();
 ht.set("Canada", "300");
 ht.set("Germany", "100");
 ht.set("Italy", "50");
+ht.set("Poland", "30");
 
-ht.remove("Italy")
-ht.remove("Germany")
+ht.remove("Poland")
 
-ht.set("Poland", "80");
 console.log(ht)
+
+// { "buckets": { "515": [ [ "Italy", "50" ] ], "568": [ [ "Canada", "300" ] ],
+// "606": [], "723": [ [ "Germany", "100" ] ] }, "size": 3 }
